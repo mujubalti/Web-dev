@@ -1,5 +1,29 @@
 .main{
     width: 100%;
     height: 100vh;
-background-color: antiquewhite;
+    background-color: rgb(186, 236, 236);
+}
+.sub{
+    width: 100%;
+    height: 40vh;
+    background-color: blue;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.sub1{
+    width: 100%;
+    height: 40vh;
+background-color: darkgoldenrod;
+
+
+
+}
+.sub2{
+    width: 100%;
+    height: 40vh;
+background-color: darkseagreen;
+
+
+
 }
