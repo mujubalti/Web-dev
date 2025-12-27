@@ -1,0 +1,9 @@
+.main{
+    width: 800px;
+    height: 400px;
+    background-color: aqua;
+    /* margin-left: 200px;
+    padding-left: 100px; */
+       margin-right: 200px;
+    padding-right: 100px;
+}
