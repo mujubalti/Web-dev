@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Combinators with div</title>
+  <style>
+    /* 1. Descendant combinator (space) */
+    .container div {
+      color: blue;
+    }
+
+    /* 2. Child combinator (>) */
+    .parent > div {
+      background-color: lightgreen;
+      margin: 5px;
+    }
+
+    /* 3. Adjacent sibling combinator (+) */
+    .first + div {
+      border: 2px solid red;
+    }
+
+    /* 4. General sibling combinator (~) */
+    .start ~ div {
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    Container
+    <div>Descendant div</div>
+  </div>
+
+  <div class="parent">
+    Parent
+    <div>Direct child div</div>
+    <div>
+      <div>Not a direct child</div>
+    </div>
+  </div>
+
+  <div class="first">First div</div>
+  <div>Adjacent sibling div</div>
+  <div>Another sibling div</div>
+
+  <div class="start">Start div</div>
+  <div>General sibling 1</div>
+  <div>General sibling 2</div>
+
+</body>
+</html>
